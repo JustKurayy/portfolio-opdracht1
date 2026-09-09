@@ -82,12 +82,9 @@ footer {
 }
 
 .footer-credits {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-}
-
-.footer-credits-titles {
-    text-align: end;
 }
