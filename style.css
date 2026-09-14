@@ -42,6 +42,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: -65px;
 }
 
 .hero::before {
@@ -85,7 +86,10 @@ footer {
 nav .btn {
     color: #ffffff;
     text-decoration: none;
-    background-color: transparent;
+    background-color: #00000000;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 
 .logo {
