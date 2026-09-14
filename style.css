@@ -92,3 +92,23 @@ footer {
     align-items: center;
     gap: 5px;
 }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #25384f;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 60%;
+    padding: 20px;
+}
+
+.card > p {
+    font-style: italic;
+}
