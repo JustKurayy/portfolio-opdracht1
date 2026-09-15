@@ -131,3 +131,10 @@ nav .btn {
 .card > p {
     font-style: italic;
 }
+
+@media (max-width: 600px) {
+    .nav {
+        max-width: 350px;
+        flex-wrap: wrap;
+    }
+}
