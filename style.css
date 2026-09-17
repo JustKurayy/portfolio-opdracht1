@@ -110,6 +110,7 @@ nav .btn {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    word-break: break-word;
 }
 
 .card-container {
@@ -128,13 +129,39 @@ nav .btn {
     padding: 20px;
 }
 
-.card > p {
+.card>p {
     font-style: italic;
+}
+
+.card-row {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height: auto;
+}
+
+.whoami {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whoami-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 600px) {
     .nav {
         max-width: 350px;
         flex-wrap: wrap;
+    }
+
+    .whoami-container {
+        flex-direction: column;
+        align-items: center;
     }
 }
