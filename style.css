@@ -53,7 +53,7 @@ h2 {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("assets/img/hero-banner.jpg");
+    background-image: url("assets/img/hero-banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
