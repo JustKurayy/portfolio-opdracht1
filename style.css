@@ -86,7 +86,6 @@ h2 {
     -moz-box-shadow: 10px 10px 60px -11px rgba(0, 0, 0, 0.75);
 }
 
-/* wil niet dat de navbar buttons een achtergrondkleur hebben */
 nav .btn {
     color: #ffffff;
     text-decoration: none;
@@ -135,6 +134,47 @@ nav .btn {
 
 .card>p {
     font-style: italic;
+}
+
+.card a, .card a:visited {
+    color: #c6e5ff;
+}
+
+.filter, form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: min(600px, calc(100% - 32px));
+    margin: 20px auto;
+}
+
+select, input, textarea {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #6a8db5;
+    border-radius: 5px;
+    font: inherit;
+}
+
+form .btn {
+    border: 0;
+    cursor: pointer;
+    align-self: start;
+}
+
+.status, .error {
+    min-height: 1.5em;
+    text-align: center;
+}
+
+.error {
+    color: #ffb4b4;
+    text-align: left;
+    margin: 0 0 8px;
+}
+
+.form-section {
+    padding-bottom: 30px;
 }
 
 .card-row {

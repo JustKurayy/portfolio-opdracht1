@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio Kuray</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <a class="btn" href="./index.html">Home</a>
+        <a class="btn" href="./projects.html">Projects</a>
+        <a class="btn" href="./blog.html">Blog</a>
+        <a class="btn" href="./contact.html">Contact</a>
+        <a class="btn" href="./credits.html">Credits</a>
+    </nav>
+    <main>
+        <header class="hero">
+            <h1>Contact</h1>
+            <p class="hero-text">Stuur een bericht voor een vraag of samenwerking.</p>
+        </header>
+        <section class="form-section" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Neem contact op</h2>
+            <form id="contact-form" novalidate>
+                <label for="name">Naam</label>
+                <input id="name" name="name" autocomplete="name" aria-describedby="name-error">
+                <p id="name-error" class="error" aria-live="polite"></p>
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error">
+                <p id="email-error" class="error" aria-live="polite"></p>
+                <label for="message">Bericht</label>
+                <textarea id="message" name="message" rows="6" aria-describedby="message-error"></textarea>
+                <p id="message-error" class="error" aria-live="polite"></p>
+                <button class="btn" type="submit">Verstuur bericht</button>
+                <p id="form-status" class="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Portfolio Kuray | </p>
+            <a target="_blank" href="https://github.com/JustKurayy"><img class="logo" src="./assets/img/github.svg"
+                    title="GitHub" alt="GitHub Logo" width="25" height="25"></a>
+        </div>
+    </footer>
+    <script src="./app.js" defer></script>
+</body>
+
+</html>

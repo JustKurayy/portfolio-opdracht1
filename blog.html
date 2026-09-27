@@ -13,6 +13,7 @@
         <a class="btn" href="./index.html">Home</a>
         <a class="btn" href="./projects.html">Projects</a>
         <a class="btn" href="./blog.html">Blog</a>
+        <a class="btn" href="./contact.html">Contact</a>
         <a class="btn" href="./credits.html">Credits</a>
     </nav>
 
@@ -28,24 +29,8 @@
 
         <section aria-labelledby="blog-heading">
             <h2 id="blog-heading">Mijn blog</h2>
-            <article class="card-container">
-                <!-- Hier komen de blog posts -->
-
-                <div class="card">
-                    <h2>Blog 1</h2>
-                    <p>
-                        Dit is een voorbeeld van een blog post. Hier kun je informatie delen over je projecten,
-                        ervaringen
-                        of
-                        andere interessante onderwerpen.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h2>Blog 2</h2>
-                    <p>Ik kan bijvoorbeeld ook vertellen over mijn repositories.</p>
-                </div>
-            </article>
+            <p id="game-status" class="status" aria-live="polite">Artikelen worden geladen.</p>
+            <article id="game-list" class="card-container"></article>
         </section>
     </main>
 
@@ -58,6 +43,7 @@
             </a>
         </div>
     </footer>
+    <script src="./app.js" defer></script>
 </body>
 
 </html>
